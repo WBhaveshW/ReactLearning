@@ -1,3 +1,8 @@
 https://github.com/sudheerj/reactjs-interview-questions/blob/master/README.md#how-to-use-innerhtml-in-react
 
 DS project in React - Basic Algos Running Visual representation
+
+
+Having multiple .gitignore files in different directories can help manage ignore rules more effectively and 
+keep your project organized. This flexibility allows you to customize the ignore 
+patterns based on the structure of your project.
