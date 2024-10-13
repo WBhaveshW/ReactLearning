@@ -9,6 +9,8 @@ import ShoppingList from "./components/ShoppingList";
 import FirstCounterApp from "./components/FirstCounterApp";
 import FirstSharedCounterApp from "./components/FirstSharedCounterApp";
 import ExpensiveCalculation from "./components/ExpensiveCalculation";
+import Stack from "./components/Stack";
+import TicTacToe from "./components/TicTacToe";
 
 function MyButton() {
   return (
@@ -40,6 +42,14 @@ export default function App() {
       <FirstCounterApp />
       <FirstSharedCounterApp />
       <ExpensiveCalculation />
+      <div>
+        <h1>Welcome Stack DS..</h1>
+        <Stack />
+      </div>
+      <div>
+        <h1>Show/List Games The Tic-Tac-Toe Game</h1>
+        <TicTacToe />
+      </div>
     </Router>
   );
 }
