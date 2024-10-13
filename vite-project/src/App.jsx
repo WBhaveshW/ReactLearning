@@ -11,6 +11,7 @@ import FirstSharedCounterApp from "./components/FirstSharedCounterApp";
 import ExpensiveCalculation from "./components/ExpensiveCalculation";
 import Stack from "./components/Stack";
 import TicTacToe from "./components/TicTacToe";
+import Destructuring from "./components/Destructuring";
 
 function MyButton() {
   return (
@@ -50,6 +51,7 @@ export default function App() {
         <h1>Show/List Games The Tic-Tac-Toe Game</h1>
         <TicTacToe />
       </div>
+      <Destructuring />
     </Router>
   );
 }
