@@ -22,10 +22,12 @@ export default function TicTacToe(props) {
   }
 
 
-  const winner = (!square.includes(null)) ? "Match has been ended , Result - Draw" : 'Winner: ' + calculateWinner(square);
+  const winner = calculateWinner(square);
   let status;
   if (winner) {
-    status = winner;
+    status = "Winner :" + winner;
+  } else if (!square.includes(null)) {
+    status = "Match has been ended , Result - Draw";
   } else {
     status = 'Next player: ' + (xIsNext ? 'X' : 'O');
   }
